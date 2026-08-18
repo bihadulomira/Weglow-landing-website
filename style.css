@@ -239,7 +239,7 @@ button{font:inherit;border:0;cursor:pointer}
 .journey-text h3{font-size:18px;margin:10px 0 5px}
 .journey-text p{font-size:10px;color:#757d77}
 
-/* Hover the your care journey buttons */
+/* Hover the your care journey buttons and also products buttons */
 .journey-card:hover{
   overflow: hidden;
   transition: transorm 0.3s ease;
@@ -259,6 +259,39 @@ button{font:inherit;border:0;cursor:pointer}
 }
 .journey-card:hover .journey-text h3{
   color: #4B3F72; 
+}
+article {
+  overflow: hidden;
+  transition: transform 0.3s ease;
+}
+
+article:hover {
+  transform: translateY(-4px);
+}
+
+.product-thumb {
+  overflow: hidden;
+  transition: transform 0.4s ease;
+}
+
+article:hover .product-thumb {
+  transform: scale(1.05);
+}
+
+article h3 {
+  transition: color 0.2s ease;
+}
+
+article:hover h3 {
+  color: #4B3F72;
+}
+.product-large-photo {
+  overflow: hidden;
+  transition: transform 0.4s ease;
+}
+
+.product-feature:hover .product-large-photo {
+  transform: scale(1.03);
 }
 
 /* ANALYSIS */
