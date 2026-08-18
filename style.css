@@ -18,6 +18,7 @@ a{text-decoration:none;color:inherit}
 button{font:inherit;border:0;cursor:pointer}
 
 /* HEADER */
+
 .site-header{
   height:76px;padding:0 5%;display:flex;align-items:center;
   justify-content:space-between;background:rgba(244,241,233,.92);
@@ -137,6 +138,27 @@ button{font:inherit;border:0;cursor:pointer}
 }
 
 .side-card small{font-size:8px;color:#c2c9c2}
+
+/* HERO hover */
+.hero-photo {
+  overflow: hidden;
+}
+
+.hero-photo {
+  transition: transform 0.4s ease;
+}
+
+.hero-photo:hover {
+  transform: scale(1.03);
+}
+.side-image {
+  overflow: hidden;
+  transition: transform 0.4s ease;
+}
+
+.side-image:hover {
+  transform: scale(1.03);
+}
 
 /* INTRO */
 
